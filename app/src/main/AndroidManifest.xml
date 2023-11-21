@@ -16,6 +16,9 @@
         android:theme="@style/Theme.Pt6HttpMauro"
         tools:targetApi="31">
         <activity
+            android:name=".LigasActivity"
+            android:exported="false" />
+        <activity
             android:name=".RecyclerViewApp"
             android:exported="false" />
         <activity

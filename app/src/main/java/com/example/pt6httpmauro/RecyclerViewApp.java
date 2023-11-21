@@ -30,16 +30,13 @@ public class RecyclerViewApp extends RecyclerView.Adapter<RecyclerViewApp.ViewHo
     @Override
     public void onBindViewHolder( ViewHolder holder, int position) {
         holder.getTxtElement().setText(elements.get(position).getNombreEquipo());
-        holder.getTxtElement().setText(elements.get(position).getAbreviacionEquipo());
+        holder.getTxtElement2().setText(elements.get(position).getAbreviacionEquipo());
     }
 
     @Override
     public int getItemCount() {
         return elements.size();
     }
-
-
-
 
     public class ViewHolder extends RecyclerView.ViewHolder {
         private TextView txtElement;

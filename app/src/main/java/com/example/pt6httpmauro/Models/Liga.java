@@ -3,12 +3,10 @@ package com.example.pt6httpmauro.Models;
 public class Liga {
     private String nombreEquipo;
     private String abreviacionEquipo;
-    private String idEquipo;
 
-    public Liga(String nombreEquipo, String abreviacionEquipo, String imagenEquipo) {
+    public Liga(String nombreEquipo, String abreviacionEquipo ) {
         this.nombreEquipo = nombreEquipo;
         this.abreviacionEquipo = abreviacionEquipo;
-        this.idEquipo = imagenEquipo;
     }
 
     public String getNombreEquipo() {
@@ -25,13 +23,5 @@ public class Liga {
 
     public void setAbreviacionEquipo(String abreviacionEquipo) {
         this.abreviacionEquipo = abreviacionEquipo;
-    }
-
-    public String getIdEquipo() {
-        return idEquipo;
-    }
-
-    public void setIdEquipo(String idEquipo) {
-        this.idEquipo = idEquipo;
     }
 }
